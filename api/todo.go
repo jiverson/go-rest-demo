@@ -7,8 +7,8 @@ import (
 	"strconv"
 
 	"github.com/gorilla/mux"
-	"github.com/jiverson/todos/app"
-	"github.com/jiverson/todos/model"
+	"github.com/jiverson/go-rest-demo/app"
+	"github.com/jiverson/go-rest-demo/model"
 )
 
 func (a *API) GetTodos(ctx *app.Context, w http.ResponseWriter, r *http.Request) error {

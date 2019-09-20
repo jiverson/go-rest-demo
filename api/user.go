@@ -5,8 +5,8 @@ import (
 	"io/ioutil"
 	"net/http"
 
-	"github.com/jiverson/todos/app"
-	"github.com/jiverson/todos/model"
+	"github.com/jiverson/go-rest-demo/app"
+	"github.com/jiverson/go-rest-demo/model"
 )
 
 type UserInput struct {

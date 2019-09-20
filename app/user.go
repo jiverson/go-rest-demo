@@ -3,7 +3,7 @@ package app
 import (
 	"strings"
 
-	"github.com/jiverson/todos/model"
+	"github.com/jiverson/go-rest-demo/model"
 )
 
 func (a *App) GetUserByEmail(email string) (*model.User, error) {

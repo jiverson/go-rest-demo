@@ -4,7 +4,7 @@ import (
 	"database/sql"
 	"log"
 
-	"github.com/jiverson/todos/model"
+	"github.com/jiverson/go-rest-demo/model"
 )
 
 func (db *Database) GetTodoById(id uint) (*model.Todo, error) {

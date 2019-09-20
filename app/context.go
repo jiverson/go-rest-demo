@@ -3,8 +3,8 @@ package app
 import (
 	"net/http"
 
-	"github.com/jiverson/todos/db"
-	"github.com/jiverson/todos/model"
+	"github.com/jiverson/go-rest-demo/db"
+	"github.com/jiverson/go-rest-demo/model"
 	"github.com/sirupsen/logrus"
 )
 

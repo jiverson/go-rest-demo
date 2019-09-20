@@ -1,4 +1,4 @@
-module github.com/jiverson/todos
+module github.com/jiverson/go-rest-demo
 
 go 1.12
 

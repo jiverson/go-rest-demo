@@ -7,8 +7,8 @@ import (
 	"github.com/sirupsen/logrus"
 	"github.com/spf13/cobra"
 
-	"github.com/jiverson/todos/app"
-	"github.com/jiverson/todos/migrations"
+	"github.com/jiverson/go-rest-demo/app"
+	"github.com/jiverson/go-rest-demo/migrations"
 )
 
 var migrateCmd = &cobra.Command{

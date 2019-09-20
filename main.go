@@ -1,6 +1,6 @@
 package main
 
-import "github.com/jiverson/todos/cmd"
+import "github.com/jiverson/go-rest-demo/cmd"
 
 func main() {
 	cmd.Execute()

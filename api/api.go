@@ -12,8 +12,8 @@ import (
 	"github.com/gorilla/mux"
 	"github.com/sirupsen/logrus"
 
-	"github.com/jiverson/todos/app"
-	"github.com/jiverson/todos/model"
+	"github.com/jiverson/go-rest-demo/app"
+	"github.com/jiverson/go-rest-demo/model"
 )
 
 type statusCodeRecorder struct {

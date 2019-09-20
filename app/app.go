@@ -1,7 +1,7 @@
 package app
 
 import (
-	"github.com/jiverson/todos/db"
+	"github.com/jiverson/go-rest-demo/db"
 	"github.com/sirupsen/logrus"
 )
 

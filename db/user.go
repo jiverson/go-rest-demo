@@ -3,7 +3,7 @@ package db
 import (
 	"database/sql"
 
-	"github.com/jiverson/todos/model"
+	"github.com/jiverson/go-rest-demo/model"
 )
 
 func (db *Database) GetUserByEmail(email string) (*model.User, error) {

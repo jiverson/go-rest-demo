@@ -1,7 +1,7 @@
 package app
 
 import (
-	"github.com/jiverson/todos/model"
+	"github.com/jiverson/go-rest-demo/model"
 )
 
 func (ctx *Context) GetTodoById(id uint) (*model.Todo, error) {
