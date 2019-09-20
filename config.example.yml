@@ -1,0 +1,2 @@
+SecretKey: 123
+DatabaseURI: host=localhost port=54320 user=todos dbname=todos password=123456 sslmode=disable

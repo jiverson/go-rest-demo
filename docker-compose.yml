@@ -1,0 +1,17 @@
+version: "3"
+
+services:
+  db:
+    image: postgres:alpine
+    restart: always
+    environment:
+      POSTGRES_DB: todos
+      POSTGRES_USER: todos
+      POSTGRES_PASSWORD: 123456
+    container_name: todos_postgres
+    ports:
+      - 54320:5432
+    volumes:
+      - db-data:/var/lib/postgresql/data
+volumes:
+  db-data:
